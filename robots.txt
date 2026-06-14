@@ -1,0 +1,13 @@
+# robots.txt for Amiimu Gadgets
+# Allow all search engines to crawl and index the store
+
+User-agent: *
+Allow: /
+
+# Block search engines from crawling CSS, JS, and internal files
+Disallow: /assets/css/
+Disallow: /assets/js/
+Disallow: /README.md
+
+# Tell search engines where the sitemap is
+Sitemap: https://amiimugadgets.shop/sitemap.xml
